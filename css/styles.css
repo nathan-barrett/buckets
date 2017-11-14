@@ -99,6 +99,18 @@
   justify-content: center;
 }
 
+.boom {
+  position: relative;
+}
+
+.boom-text {
+  position: absolute;
+  text-align: center;
+  color: white;
+  top: 50%;
+  left: 30%;
+  transform: translate(-15%, -50%);
+}
 #image-row-1 {
   margin: 0;
 }
@@ -114,13 +126,11 @@
 }
 
 #food {
-  margin-left: 8px;
   border-radius: 10px;
   opacity: 0.5;
 }
 
 #cat {
-  margin-left: 8px;
   border-radius: 10px;
   opacity: 0.5;
 }
